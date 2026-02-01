@@ -38,15 +38,21 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Program</a>
+                        <a href="#program" class="nav-link">Program</a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link">Pricing</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Pricing</a>
+                        <a href="#location" class="nav-link">Location</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="button nav-button button-pulse">Register Now</a>
+                        <a href="#" class="button nav-button button-pulse">Join Now</a>
                     </li>
                 </ul>
 
@@ -66,75 +72,451 @@
 
     <!--Home-->
     <section class="home section" id="home">
+        <div class="home-3d-bg">
+            <div class="floating-cube cube-1"></div>
+            <div class="floating-cube cube-2"></div>
+            <div class="floating-cube cube-3"></div>
+            <div class="floating-sphere sphere-1"></div>
+            <div class="floating-sphere sphere-2"></div>
+        </div>
+
         <div class="home-container container grid">
             <div class="home-data">
-                <h2 class="home-subtitle">Keep Your</h2>
-                <h1 class="home-title">Body Fit & Strong</h1>
+                <h2 class="home-subtitle">Build Your</h2>
+                <h1 class="home-title" data-text="Body From Scratch"></h1>
 
                 <p class="description">In POWERSURGE GYM we offer a variety of programs to help you achieve your fitness goals.</p>
 
-                <a href="#" class="button button-flex">Get Started <i class="ri-arrow-right-line"></i></a>
+                <div class="home-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="150">0</div>
+                        <div class="stat-label">Members</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="20">0</div>
+                        <div class="stat-label">Trainers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Programs</div>
+                    </div>
+                </div>
+
+                <a href="#" class="button button-flex home-button">Get Started <i class="ri-arrow-right-line"></i></a>
             </div>
 
-            <img src="assets/img/gym-home.png" alt="" class="home-img">
+            <div class="home-image-container">
+                <img src="assets/img/gym-home.png" alt="" class="home-img">
+                <div class="home-overlay"></div>
+            </div>
         </div>
     </section>
 
     <!--CHOOSE US-->
     <section class="choose section" id="choose">
-        <div class="choose-container container grid">
-            <div class="choose-group">
-                <img src="assets/img/calculate-img.png" alt="" class="choose-img">
+        <div class="choose-container container">
+            <h1 class="section-title" data-title="Why Choose">Why Choose Us?</h1>
+            <p class="description choose-description">Discover the reasons why POWERSURGE Gym is the perfect place to achieve your fitness goals. From expert trainers to state-of-the-art equipment, we have everything you need.</p>
 
-                <div class="choose-timing">
-                    <h3 class="choose-timing-title">Opening Hours</h3>
-                    <p class="choose-time">08:00 AM - 10:00 PM</p>
+            <div class="choose-grid grid">
+                <div class="choose-card reveal">
+                    <div class="choose-icon">
+                        <i class="ri-user-star-line"></i>
+                    </div>
+                    <h3 class="choose-card-title">Expert Trainers</h3>
+                    <p class="choose-card-description">Our certified trainers provide personalized guidance to help you reach your full potential.</p>
                 </div>
-            </div>
 
-            <div class="choose-content">
-                <h1 class="section-title" data-title="Best Reason">Why Chooose Us?</h1>
-
-                <p class="description">Choose your favorite class and start now. Remember the only bad workout is the one you didn't do.</p>
-
-                <div class="choose-data grid">
-                    <div class="choose-data-item">
-                        <h3 class="choose-no">150+</h3>
-                        <p class="choose-data-sub">Total Members</p>
+                <div class="choose-card reveal">
+                    <div class="choose-icon">
+                        <i class="ri-barbell-line"></i>
                     </div>
+                    <h3 class="choose-card-title">Modern Equipment</h3>
+                    <p class="choose-card-description">Train with the latest fitness equipment designed for optimal performance and safety.</p>
+                </div>
 
-                    <div class="choose-data-item">
-                        <h3 class="choose-no">20+</h3>
-                        <p class="choose-data-sub">Best Trainers</p>
+                <div class="choose-card reveal">
+                    <div class="choose-icon">
+                        <i class="ri-time-line"></i>
                     </div>
+                    <h3 class="choose-card-title">Flexible Hours</h3>
+                    <p class="choose-card-description">Open from 5 AM to 11 PM, 7 days a week. Fit your workout into your schedule.</p>
+                </div>
 
-                    <div class="choose-data-item">
-                        <h3 class="choose-no">15+</h3>
-                        <p class="choose-data-sub">Programs</p>
+                <div class="choose-card reveal">
+                    <div class="choose-icon">
+                        <i class="ri-group-line"></i>
                     </div>
+                    <h3 class="choose-card-title">Community Support</h3>
+                    <p class="choose-card-description">Join a supportive community of fitness enthusiasts who motivate each other.</p>
+                </div>
 
-                    <div class="choose-data-item">
-                        <h3 class="choose-no">10+</h3>
-                        <p class="choose-data-sub">Awards</p>
+                <div class="choose-card reveal">
+                    <div class="choose-icon">
+                        <i class="ri-heart-pulse-line"></i>
                     </div>
+                    <h3 class="choose-card-title">Health Monitoring</h3>
+                    <p class="choose-card-description">Track your progress with our advanced health monitoring tools and apps.</p>
+                </div>
+
+                <div class="choose-card reveal">
+                    <div class="choose-icon">
+                        <i class="ri-trophy-line"></i>
+                    </div>
+                    <h3 class="choose-card-title">Award-Winning</h3>
+                    <p class="choose-card-description">Recognized for excellence in fitness training and member satisfaction.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!--PROGRAM-->
-    <section class="program container section"></section>
+    <section class="program section" id="program">
+        <div class="program-container container">
+            <h1 class="section-title" data-title="Our Programs">Fitness Programs</h1>
+            <p class="description program-description">Explore our diverse range of fitness programs designed to help you achieve your goals, whether you're building strength, improving endurance, or enhancing flexibility.</p>
+
+            <div class="program-grid grid">
+                <div class="program-card reveal">
+                    <div class="program-icon">
+                        <i class="ri-dumbbell-line"></i>
+                    </div>
+                    <h3 class="program-title">Weight Training</h3>
+                    <p class="program-description">Build muscle and strength with our comprehensive weight training programs, guided by certified trainers.</p>
+                    <a href="#" class="program-link">Learn More <i class="ri-arrow-right-line"></i></a>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-icon">
+                        <i class="ri-heart-pulse-line"></i>
+                    </div>
+                    <h3 class="program-title">Cardio</h3>
+                    <p class="program-description">Improve cardiovascular health and endurance with our high-energy cardio classes and equipment.</p>
+                    <a href="#" class="program-link">Learn More <i class="ri-arrow-right-line"></i></a>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-icon">
+                        <i class="ri-rest-time-line"></i>
+                    </div>
+                    <h3 class="program-title">Yoga</h3>
+                    <p class="program-description">Find balance and flexibility through our yoga sessions, suitable for all levels from beginners to advanced.</p>
+                    <a href="#" class="program-link">Learn More <i class="ri-arrow-right-line"></i></a>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-icon">
+                        <i class="ri-flashlight-line"></i>
+                    </div>
+                    <h3 class="program-title">HIIT</h3>
+                    <p class="program-description">High-Intensity Interval Training for maximum calorie burn and improved fitness in short, intense sessions.</p>
+                    <a href="#" class="program-link">Learn More <i class="ri-arrow-right-line"></i></a>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-icon">
+                        <i class="ri-arm-line"></i>
+                    </div>
+                    <h3 class="program-title">Strength Training</h3>
+                    <p class="program-description">Develop overall strength and power with targeted exercises and progressive training methods.</p>
+                    <a href="#" class="program-link">Learn More <i class="ri-arrow-right-line"></i></a>
+                </div>
+
+                <div class="program-card reveal">
+                    <div class="program-icon">
+                        <i class="ri-body-scan-line"></i>
+                    </div>
+                    <h3 class="program-title">Flexibility</h3>
+                    <p class="program-description">Enhance your range of motion and prevent injuries with our stretching and flexibility programs.</p>
+                    <a href="#" class="program-link">Learn More <i class="ri-arrow-right-line"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--EQUIPMENTS-->
+    <section class="equipments section" id="equipments">
+        <div class="equipments-container container">
+            <h1 class="section-title" data-title="Our Equipment">Gym Equipment</h1>
+            <p class="description equipments-description">Discover our state-of-the-art gym equipment designed to provide the best workout experience for all fitness levels.</p>
+
+            <div class="equipment-slider">
+                <div class="slider-container">
+                    <div class="slider-wrapper">
+                        <div class="slide active">
+                            <img src="assets/img/weight.jpg" alt="Free Weights" class="slide-image">
+                            <div class="slide-overlay">
+                                <h3 class="slide-title">Free Weights</h3>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/cardio.jpg" class="slide-image">
+                            <div class="slide-overlay">
+                                <h3 class="slide-title">Cardio Machines</h3>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/resist.jpg" alt="Resistance Machines" class="slide-image">
+                            <div class="slide-overlay">
+                                <h3 class="slide-title">Resistance Machines</h3>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/function.jpg" alt="Functional Training" class="slide-image">
+                            <div class="slide-overlay">
+                                <h3 class="slide-title">Functional Training</h3>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/stretch.jpg" alt="Stretching Area" class="slide-image">
+                            <div class="slide-overlay">
+                                <h3 class="slide-title">Stretching Area</h3>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/img/monitor.jpg" alt="Modern Environment" class="slide-image">
+                            <div class="slide-overlay">
+                                <h3 class="slide-title">Modern Environment</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <button class="slider-btn prev-btn" id="prevBtn">
+                        <i class="ri-arrow-left-line"></i>
+                    </button>
+                    <div class="slider-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                        <span class="dot" data-slide="3"></span>
+                        <span class="dot" data-slide="4"></span>
+                        <span class="dot" data-slide="5"></span>
+                    </div>
+                    <button class="slider-btn next-btn" id="nextBtn">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--PRICING-->
+    <section class="pricing section" id="pricing">
+        <div class="pricing-container container">
+            <h1 class="section-title" data-title="Our Plans">Pricing Plans</h1>
+            <p class="description pricing-description">Choose the perfect plan for your fitness journey. All plans include access to our state-of-the-art facilities and expert trainers.</p>
+
+            <div class="pricing-grid grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Basic</h3>
+                        <div class="pricing-price">
+                            <span class="price">$29</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="ri-check-line"></i> Access to gym equipment</li>
+                        <li><i class="ri-check-line"></i> Locker room access</li>
+                        <li><i class="ri-check-line"></i> Basic fitness classes</li>
+                        <li><i class="ri-close-line"></i> Personal trainer</li>
+                        <li><i class="ri-close-line"></i> Nutrition consultation</li>
+                    </ul>
+                    <a href="#" class="button pricing-button">Get Started</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Premium</h3>
+                        <div class="pricing-price">
+                            <span class="price">$59</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="ri-check-line"></i> All Basic features</li>
+                        <li><i class="ri-check-line"></i> Unlimited classes</li>
+                        <li><i class="ri-check-line"></i> 2 personal training sessions</li>
+                        <li><i class="ri-check-line"></i> Nutrition consultation</li>
+                        <li><i class="ri-close-line"></i> VIP lounge access</li>
+                    </ul>
+                    <a href="#" class="button pricing-button">Get Started</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">VIP</h3>
+                        <div class="pricing-price">
+                            <span class="price">$99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="ri-check-line"></i> All Premium features</li>
+                        <li><i class="ri-check-line"></i> Unlimited personal training</li>
+                        <li><i class="ri-check-line"></i> VIP lounge access</li>
+                        <li><i class="ri-check-line"></i> Guest passes</li>
+                        <li><i class="ri-check-line"></i> Priority booking</li>
+                    </ul>
+                    <a href="#" class="button pricing-button">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--CALCULATE-->
+    <section class="calculate section" id="calculate">
+        <div class="calculate-container container grid">
+            <div class="calculate-image-container">
+                <div class="calculate-circle"></div>
+                <img src="assets/img/calculate-img.png" alt="BMI Calculator Illustration" class="calculate-img">
+            </div>
+
+            <div class="calculate-data">
+                <h1 class="section-title" data-title="BMI Calculator">Calculate Your BMI</h1>
+                <p class="description calculate-description">Use our BMI calculator to determine your Body Mass Index and get insights into your health status.</p>
+
+                <div class="calculate-form">
+                    <div class="form-group">
+                        <label for="height" class="form-label">Height (cm)</label>
+                        <input type="number" id="height" class="form-input" placeholder="Enter your height" min="50" max="250">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="weight" class="form-label">Weight (kg)</label>
+                        <input type="number" id="weight" class="form-input" placeholder="Enter your weight" min="20" max="300">
+                    </div>
+
+                    <button class="button calculate-button" id="calculate-btn">Calculate BMI</button>
+
+                    <div class="result" id="result">
+                        <div class="bmi-value" id="bmi-value"></div>
+                        <div class="bmi-category" id="bmi-category"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--LOCATION-->
+    <section class="location section" id="location">
+        <div class="location-container container">
+            <h1 class="section-title" data-title="Find Us">Our Location</h1>
+            <p class="description location-description">Visit POWERSURGE Gym today. We're conveniently located in the heart of the city, with easy access and ample parking.</p>
+
+            <div class="location-grid grid">
+                <div class="location-info">
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <i class="ri-map-pin-line"></i>
+                        </div>
+                        <h3 class="location-title">Address</h3>
+                        <p class="location-text">Barek Mollah, Kamal Shoroni, Mirpur, 60-feet</p>
+                    </div>
+
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <i class="ri-phone-line"></i>
+                        </div>
+                        <h3 class="location-title">Phone</h3>
+                        <p class="location-text">+880 000000 0000</p>
+                    </div>
+                </div>
+
+                <div class="location-map">
+                    <iframe src="https://share.google/b2ilzDpNdNeGUs0yx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--MARQUE-->
+    <section class="marquee section" id="marquee">
+        <div class="marquee-container container">
+            <div class="marquee-content">
+                <span class="marquee-item">🏋️ New HIIT classes starting next week! Join now and boost your fitness journey.</span>
+                <span class="marquee-item">💪 Summer fitness challenge begins! Compete with fellow members for amazing prizes.</span>
+                <span class="marquee-item">🎯 Free personal training consultation this weekend! Book your slot today.</span>
+                <span class="marquee-item">🔥 Limited time offer: 20% off on Premium membership for new members.</span>
+                <span class="marquee-item">🏆 Join our community of over 150 fitness enthusiasts transforming their lives.</span>
+                <span class="marquee-item">⏰ Extended hours: Open 24/7 during holidays. Never miss a workout!</span>
+            </div>
+        </div>
+    </section>
     </main>
 
     <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-content grid">
+                <div class="footer-about">
+                    <a href="index.html" class="footer-logo">
+                        <img src="assets/img/logo.png" alt="" class="footer-logo-img">
+                        <span class="footer-logo-text">Powersurge Gym</span>
+                    </a>
+                    <p class="footer-description">Transform your body and mind with POWERSURGE Gym. Join our community of fitness enthusiasts and achieve your goals with expert guidance and state-of-the-art equipment.</p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link"><i class="ri-facebook-fill"></i></a>
+                        <a href="#" class="footer-social-link"><i class="ri-instagram-fill"></i></a>
+                        <a href="#" class="footer-social-link"><i class="ri-twitter-fill"></i></a>
+                        <a href="#" class="footer-social-link"><i class="ri-youtube-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-list">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#choose" class="footer-link">Choose Us</a></li>
+                        <li><a href="#program" class="footer-link">Programs</a></li>
+                        <li><a href="#equipments" class="footer-link">Equipment</a></li>
+                        <li><a href="#pricing" class="footer-link">Pricing</a></li>
+                        <li><a href="#calculate" class="footer-link">BMI Calculator</a></li>
+                        <li><a href="#location" class="footer-link">Location</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <div class="footer-contact-item">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Barek Mollah, Kamal Shoroni, Mirpur, 60-feet</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="ri-phone-line"></i>
+                        <span>+880 000000 0000</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="ri-mail-line"></i>
+                        <span>info@powersurgegym.com</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="ri-time-line"></i>
+                        <span>Open: 5 AM - 11 PM, 7 days/week</span>
+                    </div>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p class="footer-newsletter-text">Subscribe to get updates on new programs and special offers.</p>
+                    <form class="footer-form">
+                        <input type="email" placeholder="Your email" class="footer-input">
+                        <button type="submit" class="footer-button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2024 POWERSURGE Gym. All rights reserved. | Made with care by Wist Webworks</p>
+            </div>
+        </div>
+    </footer>
 
     <!--SCROLL TOP-->
+    <button class="scroll-top" id="scrollTopBtn">
+        <i class="ri-arrow-up-line"></i>
+    </button>
 
     <!--SCROLL REVEAL-->
 
